@@ -1,0 +1,32 @@
+{
+  "name": "wdioframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@wdio/allure-reporter": "^6.0.14",
+    "@wdio/cli": "^6.0.15",
+    "@wdio/devtools-service": "^6.0.16",
+    "@wdio/local-runner": "^6.0.15",
+    "@wdio/mocha-framework": "^6.0.15",
+    "@wdio/sync": "^6.0.15",
+    "allure-commandline": "^2.13.0",
+    "chromedriver": "^81.0.0",
+    "wdio-chromedriver-service": "^6.0.1"
+  },
+  "dependencies": {
+    "expect": "^25.3.0",
+    "expect-webdriverio": "^1.0.0",
+    "wdio-allure-reporter": "^0.8.3"
+  }
+}
